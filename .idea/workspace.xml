@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762053b2-6a84-43e2-b07f-13de66b90e4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elifTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sortings/Merge sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sortings/Merge sorting.py" afterDir="false" />
     </list>
@@ -127,7 +126,7 @@
       <workItem from="1587850515801" duration="5768000" />
       <workItem from="1587897983224" duration="1391000" />
       <workItem from="1587899432010" duration="720000" />
-      <workItem from="1587900630386" duration="8193000" />
+      <workItem from="1587900630386" duration="8774000" />
     </task>
     <task id="LOCAL-00001" summary="add stuff to merge sorting algorithm">
       <created>1587898067095</created>
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587898067096</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="algorithm is semi working&#10;run into infinite loop if there are two identical numbers in the list">
+      <created>1587910660803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587910660803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,33 +150,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add stuff to merge sorting algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stuff to merge sorting algorithm" />
+    <MESSAGE value="algorithm is semi working&#10;run into infinite loop if there are two identical numbers in the list" />
+    <option name="LAST_COMMIT_MESSAGE" value="algorithm is semi working&#10;run into infinite loop if there are two identical numbers in the list" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1587184210381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1587184210381" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1587898065052">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1587910660272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587898065051" />
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1587910606049">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587910660272" />
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom" timestamp="1587911075229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587910606049" />
-    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1587910606049">
+    <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587911075229" />
+    <state width="1877" height="221" key="GridCell.Tab.0.center" timestamp="1587911075229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587910606049" />
-    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1587910606049">
+    <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587911075229" />
+    <state width="1877" height="221" key="GridCell.Tab.0.left" timestamp="1587911075229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587910606049" />
-    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1587910606049">
+    <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587911075229" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right" timestamp="1587911075229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587910606049" />
+    <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587911075229" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587908020874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,10 +194,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587908020874" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587898070637">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587910666905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587898070637" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587910666905" />
     <state x="669" y="311" key="git4idea.merge.GitPullDialog" timestamp="1587900657966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,6 +216,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Alogrithms$Recursion.coverage" NAME="Recursion Coverage Results" MODIFIED="1587608859414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sortings" />
     <SUITE FILE_PATH="coverage/Alogrithms$elifTest.coverage" NAME="elifTest Coverage Results" MODIFIED="1587908995812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Alogrithms$Merge_sorting.coverage" NAME="Merge sorting Coverage Results" MODIFIED="1587910606044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sortings" />
+    <SUITE FILE_PATH="coverage/Alogrithms$Merge_sorting.coverage" NAME="Merge sorting Coverage Results" MODIFIED="1587911075223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sortings" />
   </component>
 </project>

@@ -1,17 +1,12 @@
-def sort(array, odd):
+def sort(array):
     inOrder = False
-    randomNumber = [0]
-    if odd:
-        array.append(randomNumber)
-
     while not inOrder:
-        isFirstArrayNotEmpty = True
-        isSecondArrayNotEmpty = True
+        isArr1Empty = True
+        isArr2Empty = True
         tempArr = []
-        while isFirstArrayNotEmpty and isSecondArrayNotEmpty:
-            print("Sorting")
-            isFirstArrayNotEmpty = len(array[0]) != 0
-            isSecondArrayNotEmpty = len(array[1]) != 0
+        while isArr1Empty and isArr2Empty:
+            isArr1Empty = len(array[0]) != 0
+            isArr2Empty = len(array[1]) != 0
             if len(array[0]) == 0 and len(array[1]) == 1:
                 tempArr.append(array[1][0])
                 del array[1][0]
@@ -38,7 +33,9 @@ def sort(array, odd):
             elif array[0][0] < array[1][0]:
                 tempArr.append(array[0][0])
                 del array[0][0]
-            
+            elif array[0][0] == array[1][0]:
+                tempArr.append(array[0][0])
+                del array[0][0]
         array.append(tempArr)
         if len(array) == 2:
             del array[0]
@@ -48,26 +45,17 @@ def sort(array, odd):
 
         if len(array) == 1:
             inOrder = True
-    print(array)
     return array
 
 
 def split(array):
-    odd = False
     tempList = array.split(" ")
-
-    if len(tempList) % 2 == 1:
-        odd = True
-
     splitList = []
     for i in tempList:
         singleton = [int(i)]
         splitList.append(singleton)
 
-    return sort(splitList, odd)[0]
-
+    return sort(splitList)[0]
 
 inputList = input()
-sortList = split(inputList)
-print(sortList)
-
+print(split(inputList))
